@@ -1,22 +1,28 @@
 import React from "react";
-import Form from "react-router-bootstrap";
+import Form from "react-bootstrap";
 
 function Contacto(){
-    <form>
-        <div class="form-group">
-         <label for="exampleInputEmail1">Email</label>
-         </div>
-        <div class="form-group">
-         <label for="exampleInputPassword1">Nombre</label>
-         </div>
-         <div class="form-group">
-            <label for="exampleInputPassword1">Apellido</label>
-         </div>
-         <div class="form-group">
-            <label for="exampleInputPassword1">Edad</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-}
+    return (
+        <form>
+          <label>
+            Nombre: 
+          </label>
+          <input type="text"/><br></br><br></br>
+          <label>
+            Apellido: 
+          </label>
+          <input type="text"/><br></br><br></br>
+          <label>
+            Email: 
+          </label>
+          <input type="email"/><br></br><br></br>
+          <label>
+            Edad: 
+          </label>
+          <input type="number"/><br></br><br></br>
+          <input type="submit" value="Enviar" />
+        </form>
+      );
+    }
 
 export default Contacto;
