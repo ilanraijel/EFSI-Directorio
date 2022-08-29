@@ -4,6 +4,7 @@ import Layout from "./Layout";
 import Home from "./Home";
 import Personas from "./Personas";
 import Estadisticas from "./Estadisticas";
+import Contacto from "./Contacto";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
             <Route path="/home" element={<Home />}></Route>
             <Route path="personas/:id" element={<Personas/>}></Route>
             <Route path="estadisticas" element={<Estadisticas/>}></Route>
+            <Route path="contacto" element={<Contacto/>}></Route>
+
           </Route>
         </Routes>
       </BrowserRouter>
