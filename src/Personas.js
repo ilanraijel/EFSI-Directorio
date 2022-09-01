@@ -392,6 +392,13 @@ const Personas = [
     "edad":"19"
   },
   {
+    "id":"56",
+    "nombre":"Moll2",
+    "apellido":"Riddlesden",
+    "email":"mriddlesden1j@shinystat.com",
+    "edad":"19"
+  },
+  {
     "id":"57",
     "nombre":"Denny",
     "apellido":"Rittmeier",
@@ -418,6 +425,13 @@ const Personas = [
     "apellido":"Kilmary",
     "email":"rkilmary1n@businessinsider.com",
     "edad":"48"
+  },
+  {
+    "id":"61",
+    "nombre":"Juan",
+    "apellido":"Tester",
+    "email":"juantester6@gnu.org",
+    "edad":"65"
   },
 ];
 

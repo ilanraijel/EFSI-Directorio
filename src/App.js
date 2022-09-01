@@ -5,6 +5,7 @@ import Home from "./Home";
 import Personas from "./Personas";
 import Estadisticas from "./Estadisticas";
 import Contacto from "./Contacto";
+import Estadisticass from "./Persona";
 
 function App() {
   return (
@@ -16,7 +17,6 @@ function App() {
             <Route path="personas/:id" element={<Personas/>}></Route>
             <Route path="estadisticas" element={<Estadisticas/>}></Route>
             <Route path="contacto" element={<Contacto/>}></Route>
-
           </Route>
         </Routes>
       </BrowserRouter>
